@@ -41,7 +41,7 @@
   short: >-
     Continuous performance prediction (PACE), microarchitectural side-channel detection, and tooling
     that catches regressions before they ship.
-  tags: CI/CD · Spectre · TOSEM
+  tags: CI/CD · Vulnerability Detection · Static Program Analysis
   long: >-
     Performance regressions and security vulnerabilities both tend to surface late — after a release,
     when they are expensive. We build tooling that surfaces them earlier in the development pipeline.
@@ -60,7 +60,7 @@
   short: >-
     Image attribute estimation and reconstruction from fragments, and post-incident forensic protocols
     for autonomous and connected systems.
-  tags: forensics · reconstruction · AVs
+  tags: forensics · reconstruction · UAVs
   long: >-
     When evidence arrives fragmented or corrupted, recovering it is half engineering and half inference.
     Our forensics work spans image-attribute estimation for reconstruction from file fragments,

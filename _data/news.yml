@@ -1,6 +1,14 @@
 # News, in reverse-chronological order. Most recent first.
 # `date` is just for display; sort manually.
 
+- date: March 2026
+  body: >-
+    University of Massachusetts Dartmouth Cyber Games team that I mentor recently won first place in the regional competition of the 2026 NCAE Cyber Games. The team beat out 11 other teams in the Northeast 2 division and earned the highest overall score of all 140 teams across the U.S. News article: <a href="https://www.umassd.edu/news/2026/ncae-cyber-games.html">Read more</a>
+
+- date: February 2026
+  body: >-
+    I am organizing the Workshop on Dependable and Secure Autonomous Systems at DSN 2026 conference. <a href="https://dsas2026.github.io/">Read more</a>
+
 - date: Jul 2024
   body: >-
     NSF supplement <em>Building Blocks of Microprocessors: Simulations, Labs and Citizen Science
