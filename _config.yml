@@ -1,5 +1,5 @@
 title: Kul Lab
-tagline: Resilient & Secure Computing
+tagline: Privacy Aware Defense Laboratory
 subtitle: UMass Dartmouth
 description: >-
   Research lab of Dr. Gokhan Kul at UMass Dartmouth. We work on cybersecurity,
@@ -15,14 +15,14 @@ url: "https://gkul.gitlab.io"   # change to your actual GitLab Pages URL
 # PI / contact
 pi:
   name: Gokhan Kul, Ph.D.
-  title: Assistant Professor
+  title: Associate Professor
   department: Department of Computer & Information Science
   university: University of Massachusetts Dartmouth
   office: Dion 307B
   email_user: gkul
   email_domain: umassd.edu
   github: PADLab
-  scholar: ""    # paste Google Scholar user ID, e.g. abc123XYZ
+  scholar: "bjuDChoAAAAJ"    # paste Google Scholar user ID, e.g. abc123XYZ
   dblp: "137/3739"
 
 # Build

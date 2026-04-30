@@ -5,20 +5,23 @@
 # [EDIT] These entries are inferred from your recent co-authored publications.
 # Verify each person's status, role, and project before going live.
 
-- name: Pahavalan Rajkumar Dheivanayahi
-  initials: PR
+- name: Goktug Ekinci
   role: Ph.D. Student
-  topic: Explainable NIDS · transformers for packet-level detection
-  photo:    # e.g. pahavalan.jpg
+  topic: Adaptive Machine Learning and Authentication Systems
+  photo:    # e.g. goktug.jpg
 
-- name: Ryan Berry
-  initials: RB
-  role: Graduate Student
-  topic: ML resilience · intrusion detection
+- name: Adam Trott
+  role: Ph.D. Student
+  topic: Open Set Recognition for Electronic Warfare
   photo:
 
-- name: Nicholas Costagliola
-  initials: NC
-  role: Graduate Student
-  topic: Open-world recognition · NIDS
+- name: Mayank Raj
+  role: M.S. Student
+  topic: Risk Modeling and Attack Chain Prediction for NIDS
   photo:
+
+- name: Shreyash Tiwari
+  role: M.S. Student
+  topic: Deep Q Networks for Open-Set Recognition
+  photo:
+
