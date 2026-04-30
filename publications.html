@@ -1,0 +1,55 @@
+---
+layout: page
+title: Publications
+lede: Peer-reviewed work from the lab and earlier collaborations. PI's name is highlighted; clickable titles link to publisher or preprint.
+permalink: /publications/
+---
+
+<p class="muted" style="font-size:.92rem">
+  For the most up-to-date listing, see
+  {%- if site.pi.scholar != "" %}
+    <a href="https://scholar.google.com/citations?user={{ site.pi.scholar }}">Google Scholar</a> ·
+  {%- endif %}
+  <a href="https://dblp.org/pid/{{ site.pi.dblp }}.html">DBLP</a>.
+</p>
+
+{%- assign sections = "journal,Journal Papers|conference,Conference Papers|posters,Poster Presentations|reports,Project Reports" | split: "|" -%}
+
+{%- for section in sections -%}
+  {%- assign parts = section | split: "," -%}
+  {%- assign key = parts[0] -%}
+  {%- assign label = parts[1] -%}
+  {%- assign list = site.data.publications[key] -%}
+  {%- if list -%}
+<section class="pub-section">
+  <h2>{{ label }} <span class="pub-count">{{ list | size }} entries</span></h2>
+  <ol class="pub-list">
+    {%- for pub in list -%}
+    <li>
+      <div class="pub-authors">
+        {%- for author in pub.authors -%}
+          {%- if author contains "*" -%}
+            <span class="me">{{ author | replace: "*", "" }}</span>
+          {%- else -%}
+            {{ author }}
+          {%- endif -%}
+          {%- unless forloop.last -%}, {% endunless -%}
+        {%- endfor -%}.
+      </div>
+      <div class="pub-title">
+        {%- if pub.url and pub.url != "" -%}
+          <a href="{{ pub.url }}">{{ pub.title }}</a>
+        {%- else -%}
+          {{ pub.title }}
+        {%- endif -%}
+      </div>
+      <div class="pub-venue">
+        <span class="venue-name">{{ pub.venue }}</span>{% if pub.details and pub.details != "" %}, {{ pub.details }}{% endif %}.
+        <span class="pub-year">{{ pub.year }}</span>
+      </div>
+    </li>
+    {%- endfor -%}
+  </ol>
+</section>
+  {%- endif -%}
+{%- endfor -%}

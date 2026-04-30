@@ -1,0 +1,82 @@
+# Research areas, used on home page (cards) and research page (full text)
+# Add or remove entries as your work evolves
+
+- id: ml-resilience
+  title: ML Resilience &amp; Open-World Recognition
+  short: >-
+    Quantifying and engineering the resilience of ML systems — particularly intrusion detectors —
+    under distribution shift, novel classes, and adversarial inputs.
+  tags: open-set · resilience · NIDS
+  long: >-
+    Production ML systems regularly encounter inputs unlike anything in their training data —
+    new attack variants, drifted user behavior, sensor degradation. We study how such systems should
+    behave under those conditions: when to abstain, when to flag a sample as out-of-distribution,
+    and how to quantify the cost of getting it wrong. Our DoA-funded program develops resilience
+    metrics, open-set recognition models, and explainability methods tailored to network intrusion detection.
+  highlights:
+    - Explainability of Network Intrusion Detection using Transformers (IEEE Access, 2025)
+    - Quantitative Assessment of ML Reliability and Resilience (Risk Analysis, 2024)
+    - Performance Analysis of Deep-Learning Open-Set Recognition Algorithms for NIDS (NOMS, 2023)
+  sponsor: U.S. Department of the Army ($546k, 2022–2025, PI)
+
+- id: db-security
+  title: Database &amp; Insider Threat Security
+  short: >-
+    SQL query intent modeling, query similarity, and detection of data exfiltration and insider
+    attacks against enterprise databases.
+  tags: SQL · insider threat · data leakage
+  long: >-
+    Insider attacks against databases are hard precisely because the attacker is already authenticated.
+    Our work on SQL query intent modeling — including the Ettu framework and similarity measures for
+    SQL queries — treats query workloads as a behavioral signal: deviations from intent are what give
+    insider exfiltration away. Spinoffs include detecting data leakage in Android applications and
+    from advanced persistent threats.
+  highlights:
+    - An Analysis of Complexity of Insider Attacks to Databases (ACM TMIS, 2021)
+    - Similarity Measures for SQL Query Clustering (IEEE TKDE, 2018)
+    - Toward Pinpointing Data Leakage from Advanced Persistent Threats (IEEE ICIDS, 2021)
+
+- id: software-perf
+  title: Software Performance &amp; Vulnerability Detection
+  short: >-
+    Continuous performance prediction (PACE), microarchitectural side-channel detection, and tooling
+    that catches regressions before they ship.
+  tags: CI/CD · Spectre · TOSEM
+  long: >-
+    Performance regressions and security vulnerabilities both tend to surface late — after a release,
+    when they are expensive. We build tooling that surfaces them earlier in the development pipeline.
+    PACE is a continuous-integration framework that predicts the performance impact of code changes
+    before merge. Related work targets microarchitectural side-channel vulnerabilities (Spectre-class)
+    using static and ML-based detection.
+  highlights:
+    - "PACE: A Program Analysis Framework for Continuous Performance Prediction (ACM TOSEM, 2023)"
+    - Static and Microarchitectural ML-Based Approaches for Detecting Spectre (HASP, 2022)
+    - Automated UX Testing through Multi-Dimensional Performance Impact Analysis (IEEE/ACM AST, 2021)
+  code: https://github.com/PADLab/PACE
+
+- id: forensics
+  title: Digital Forensics
+  short: >-
+    Image attribute estimation and reconstruction from fragments, and post-incident forensic protocols
+    for autonomous and connected systems.
+  tags: forensics · reconstruction · AVs
+  long: >-
+    When evidence arrives fragmented or corrupted, recovering it is half engineering and half inference.
+    Our forensics work spans image-attribute estimation for reconstruction from file fragments,
+    after-collision forensic protocols for autonomous vehicles, and inference of adversary capabilities
+    from partial logs.
+  highlights:
+    - Image Attribute Estimation for Forensic Image Reconstruction from Fragments (HICSS, 2023)
+    - Toward an AI-Based After-Collision Forensic Analysis Protocol for Autonomous Vehicles (IEEE WAAS, 2020)
+
+- id: education
+  title: Cybersecurity Education &amp; Workforce Development
+  short: >-
+    NSF-funded programs through UMassD's NSA/DHS Center of Academic Excellence — including the
+    Building Blocks of Microprocessors SFS supplement.
+  tags: SFS · NSF · CAE-CD
+  long: >-
+    Beyond research, the lab contributes to cybersecurity education and workforce development through
+    NSF-funded programs at UMassD's NSA/DHS Center of Academic Excellence — including the Building
+    Blocks of Microprocessors SFS supplement, which uses simulations, labs, and citizen science to
+    broaden participation in inclusive STEM learning.

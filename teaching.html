@@ -1,0 +1,32 @@
+---
+layout: page
+title: Teaching
+lede: Courses taught at UMass Dartmouth.
+narrow: true
+permalink: /teaching/
+---
+
+<table class="course-table">
+  <thead>
+    <tr>
+      <th>Course</th>
+      <th>Title</th>
+      <th>Level</th>
+      <th>Terms</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%- for c in site.data.teaching -%}
+    <tr>
+      <td class="course-code">{{ c.code }}</td>
+      <td>{{ c.title }}</td>
+      <td>{{ c.level }}</td>
+      <td class="course-terms">{{ c.terms | join: ", " }}</td>
+    </tr>
+    {%- endfor -%}
+  </tbody>
+</table>
+
+<p class="muted" style="font-size:.9rem">
+  Course syllabi and materials are distributed through myCourses; please contact me directly if you need access outside of an enrolled term.
+</p>

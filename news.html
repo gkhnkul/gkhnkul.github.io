@@ -1,0 +1,16 @@
+---
+layout: page
+title: News
+lede: Recent grants, appointments, talks, and lab milestones.
+narrow: true
+permalink: /news/
+---
+
+<ul class="news-list">
+  {%- for item in site.data.news -%}
+  <li>
+    <span class="news-date">{{ item.date }}</span>
+    <span class="news-body">{{ item.body }}</span>
+  </li>
+  {%- endfor -%}
+</ul>

@@ -1,0 +1,46 @@
+# Alumni - past graduate students and lab members.
+# [EDIT] Update `now` field as you learn where folks land.
+
+alumni:
+  - name: Gaspard Baye
+    then: "Ph.D., Open-set recognition for NIDS"
+    now: ""    # e.g. "Now: Research Engineer @ Company"
+  - name: Chidera Biringa
+    then: "Ph.D., PACE / continuous performance prediction"
+    now: ""
+  - name: Kevin Montambault
+    then: "M.S., Forensic image reconstruction from fragments"
+    now: ""
+  - name: Jack D'Agostino
+    then: "M.S., APT data-leakage detection"
+    now: ""
+  - name: Heather Craddock
+    then: "M.S., Physical memory pools"
+    now: ""
+  - name: Lakshmi Prasanna Konudula
+    then: "M.S., Physical memory pools"
+    now: ""
+  - name: Akash Sundararaj
+    then: "M.S., Phishing email classification"
+    now: ""
+  - name: Umesh Siddanagaiah
+    then: "M.S., AI forensics for autonomous vehicles"
+    now: ""
+  - name: Julia Sorrentino
+    then: "Vulnerability discovery modeling"
+    now: ""
+  - name: Kun Cheng
+    then: "Cloud / memory pooling"
+    now: ""
+
+# Frequent external collaborators (separate list since they aren't lab members)
+collaborators:
+  - name: Lance Fiondella
+    affiliation: UMass Dartmouth
+    note: ML reliability, software vulnerability discovery · co-PI
+  - name: Nathaniel D. Bastian
+    affiliation: U.S. Army Cyber Institute
+    note: NIDS, open-set recognition
+  - name: Shambhu Upadhyaya
+    affiliation: University at Buffalo
+    note: Insider threats, database security · Ph.D. advisor

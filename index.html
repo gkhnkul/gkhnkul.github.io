@@ -1,0 +1,60 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>{{ site.pi.name }}</h1>
+    <div class="role">{{ site.pi.title }} · {{ site.pi.department }}</div>
+    <p>
+      Our lab works at the intersection of <strong>cybersecurity</strong>, <strong>machine learning resilience</strong>,
+      and <strong>software systems</strong>. We design methods for detecting threats in databases and networks,
+      build models that stay reliable under distribution shift and adversarial pressure, and develop tools that make
+      security and performance properties measurable across the software lifecycle.
+    </p>
+    <div class="hero-meta">
+      <strong>Office:</strong> {{ site.pi.office }}<br>
+      <strong>Email:</strong> {{ site.pi.email_user }} [at] {{ site.pi.email_domain }}<br>
+      <strong>Affiliation:</strong> Associate Director, <a href="https://www.umassd.edu/cybersecurity-center/">NSA/DHS Center of Academic Excellence in Cyber Defense</a>
+    </div>
+  </div>
+  <div class="headshot">
+    <!-- Add a headshot at assets/img/kul.jpg, then replace this div with:
+         <img src="{{ '/assets/img/kul.jpg' | relative_url }}" class="headshot" alt="{{ site.pi.name }}"> -->
+    Photo placeholder<br><span style="font-size:.7rem">(add assets/img/kul.jpg)</span>
+  </div>
+</section>
+
+<div class="callout">
+  <strong>Prospective students:</strong> I am always looking for motivated Ph.D. students. While there are no immediate openings,
+  early conversations about research interests are welcome. Master's students interested in thesis or project work should
+  reach out as early as possible.
+</div>
+
+<section>
+  <h2>Research Areas</h2>
+  <p class="muted">A short tour — see <a href="{{ '/research/' | relative_url }}">Research</a> for full descriptions.</p>
+  <div class="research-grid">
+    {%- for area in site.data.research -%}
+    <article class="research-card">
+      <h3>{{ area.title }}</h3>
+      <p>{{ area.short }}</p>
+      <div class="tags">{{ area.tags }}</div>
+    </article>
+    {%- endfor -%}
+  </div>
+</section>
+
+<section>
+  <h2>Recent News</h2>
+  <ul class="news-list">
+    {%- for item in site.data.news limit: 4 -%}
+    <li>
+      <span class="news-date">{{ item.date }}</span>
+      <span class="news-body">{{ item.body }}</span>
+    </li>
+    {%- endfor -%}
+  </ul>
+  <p style="margin-top:1.25rem"><a href="{{ '/news/' | relative_url }}">All news →</a></p>
+</section>

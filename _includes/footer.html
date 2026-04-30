@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>
+      &copy; {{ "now" | date: "%Y" }} {{ site.pi.name | replace: ", Ph.D.", "" }} · {{ site.pi.university }}<br>
+      {{ site.pi.office }} · 285 Old Westport Road · Dartmouth, MA 02747
+    </div>
+    <div>
+      <a href="https://www.umassd.edu/engineering/cis/">CIS Department</a> ·
+      <a href="https://github.com/{{ site.pi.github }}">GitHub</a> ·
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+    </div>
+  </div>
+</footer>

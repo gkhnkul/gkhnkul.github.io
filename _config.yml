@@ -1,0 +1,46 @@
+title: Kul Lab
+tagline: Resilient & Secure Computing
+subtitle: UMass Dartmouth
+description: >-
+  Research lab of Dr. Gokhan Kul at UMass Dartmouth. We work on cybersecurity,
+  machine learning resilience, intrusion detection, insider-threat analysis,
+  software performance, and digital forensics.
+
+# IMPORTANT: when deploying to a project page (e.g. username.gitlab.io/lab-website),
+# set baseurl to "/lab-website". For a user/group page (username.gitlab.io),
+# leave baseurl as "".
+baseurl: ""
+url: "https://gkul.gitlab.io"   # change to your actual GitLab Pages URL
+
+# PI / contact
+pi:
+  name: Gokhan Kul, Ph.D.
+  title: Assistant Professor
+  department: Department of Computer & Information Science
+  university: University of Massachusetts Dartmouth
+  office: Dion 307B
+  email_user: gkul
+  email_domain: umassd.edu
+  github: PADLab
+  scholar: ""    # paste Google Scholar user ID, e.g. abc123XYZ
+  dblp: "137/3739"
+
+# Build
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - README.md
+  - .gitlab-ci.yml
+  - .gitignore
+
+# Disable plugins not allowed on GitLab Pages by default; keep this minimal
+plugins: []

@@ -1,0 +1,28 @@
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="{{ '/' | relative_url }}" class="brand">
+      <span class="lab-name">{{ site.title }}</span>
+      <span class="lab-sub">{{ site.tagline }} · {{ site.subtitle }}</span>
+    </a>
+  </div>
+
+  {%- assign nav_items = "Home,/|Research,/research/|Members,/members/|Publications,/publications/|Teaching,/teaching/|News,/news/|Contact,/contact/" | split: "|" -%}
+
+  <nav class="nav" aria-label="Primary">
+    <ul>
+      {%- for item in nav_items -%}
+        {%- assign parts = item | split: "," -%}
+        {%- assign label = parts[0] -%}
+        {%- assign url = parts[1] -%}
+        {%- assign current = page.url -%}
+        {%- assign is_active = false -%}
+        {%- if url == "/" and current == "/" -%}
+          {%- assign is_active = true -%}
+        {%- elsif url != "/" and current contains url -%}
+          {%- assign is_active = true -%}
+        {%- endif -%}
+        <li><a href="{{ url | relative_url }}"{% if is_active %} class="active"{% endif %}>{{ label }}</a></li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+</header>

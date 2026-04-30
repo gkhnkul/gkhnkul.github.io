@@ -1,0 +1,195 @@
+# Publications, grouped by type.
+#
+# Schema:
+#   authors:  list of full author names. Mark the PI with "*" suffix to highlight.
+#   title:    paper title
+#   url:      link to publisher / preprint (optional)
+#   venue:    venue name (journal or conference)
+#   details:  vol/issue/pages/location etc.
+#   year:     publication year (string, for sorting)
+
+journal:
+  - authors: [Pahavalan Rajkumar Dheivanayahi, Ryan Berry, Nicholas Costagliola, Lance Fiondella, Nathaniel D. Bastian, "Gokhan Kul*"]
+    title: "Explainability of Network Intrusion Detection using Transformers: A Packet-Level Approach"
+    url: https://ieeexplore.ieee.org/abstract/document/10819385
+    venue: IEEE Access
+    details: "vol. 13, pp. 5154–5174"
+    year: "2025"
+
+  - authors: [Zakaria Faddi, Karen da Mata, Priscila Silva, Vidhyashree Nagaraju, Susmita Ghosh, "Gokhan Kul*", Lance Fiondella]
+    title: Quantitative Assessment of Machine Learning Reliability and Resilience
+    url: https://onlinelibrary.wiley.com/doi/10.1111/risa.14666
+    venue: Risk Analysis (Wiley)
+    details: ""
+    year: "2024"
+
+  - authors: [Chidera Biringa, "Gokhan Kul*"]
+    title: "PACE: A Program Analysis Framework for Continuous Performance Prediction"
+    url: https://dl.acm.org/doi/10.1145/3637230
+    venue: ACM Transactions on Software Engineering and Methodology (TOSEM)
+    details: ""
+    year: "2023"
+
+  - authors: ["Gokhan Kul*", Shambhu Upadhyaya, Andrew Hughes]
+    title: An Analysis of Complexity of Insider Attacks to Databases
+    url: https://dl.acm.org/doi/10.1145/3391231
+    venue: ACM Transactions on Management Information Systems (TMIS)
+    details: "vol. 12, no. 1"
+    year: "2021"
+
+  - authors: [Akash Sundararaj, "Gokhan Kul*"]
+    title: Impact Analysis of Training Data Characteristics for Phishing Email Classification
+    url: https://jowua.com/wp-content/uploads/2022/12/jowua-v12n2-3.pdf
+    venue: Journal of Mobile Networks, Ubiquitous Computing, and Dependable Applications (JoWUA)
+    details: "12(2), 85–98"
+    year: "2021"
+
+  - authors: [Heather Craddock, Lakshmi Prasanna Konudula, "Gokhan Kul*"]
+    title: A Survey on the Challenges of Implementing Physical Memory Pools
+    url: http://isyou.info/jisis/vol9/no2/jisis-2019-vol9-no2-04.pdf
+    venue: Journal of Internet Systems and Information Security (JISIS)
+    details: ""
+    year: "2019"
+
+  - authors: ["Gokhan Kul*", Duc Luong, Ting Xie, Varun Chandola, Oliver Kennedy, Shambhu Upadhyaya]
+    title: Similarity Measures for SQL Query Clustering
+    url: https://odin.cse.buffalo.edu/papers/2018/TKDE-QuerySimilarity.pdf
+    venue: IEEE Transactions on Knowledge and Data Engineering (TKDE)
+    details: ""
+    year: "2018"
+
+  - authors: ["Gokhan Kul*", Shambhu Upadhyaya]
+    title: Towards Cyber Ontology for Insider Threats in the Financial Sector
+    url: http://isyou.info/jowua/papers/jowua-v6n4-3.pdf
+    venue: Journal of Wireless Mobile Networks, Ubiquitous Computing, and Dependable Applications (JoWUA)
+    details: "6(4), 64–85"
+    year: "2016"
+
+  - authors: ["Gokhan Kul*", Tansel Ozyer, Bulent Tavli]
+    title: "IEEE 802.11 WLAN based Real Time Indoor Positioning: Literature Survey and Experimental Investigations"
+    url: http://www.cse.buffalo.edu/~gokhanku/WLANIndoorPositioning.pdf
+    venue: Procedia Computer Science
+    details: "34, 157–164"
+    year: "2014"
+
+conference:
+  - authors: [Gaspard Baye, Priscila Silva, Alexandre Broggi, Lance Fiondella, Nathaniel Bastian, "Gokhan Kul*"]
+    title: Performance Analysis of Deep-Learning Based Open Set Recognition Algorithms for Network Intrusion Detection Systems
+    url: https://core.ac.uk/download/pdf/578407855.pdf
+    venue: IEEE/IFIP Network Operations and Management Symposium (NOMS)
+    details: "Miami, FL"
+    year: "2023"
+
+  - authors: [Kevin Montambault, "Gokhan Kul*"]
+    title: Image Attribute Estimation for Forensic Image Reconstruction from Fragments
+    url: https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/1b6cf373-8273-4714-9d58-1c58302587d6/content
+    venue: 56th Hawaii International Conference on System Sciences (HICSS)
+    details: "Maui, HI"
+    year: "2023"
+
+  - authors: [Julia Sorrentino, Priscila Silva, Gaspard Baye, "Gokhan Kul*", Lance Fiondella]
+    title: Covariate Software Vulnerability Discovery Model to Support Cybersecurity Test and Evaluation
+    url: https://ieeexplore.ieee.org/document/9978969
+    venue: 33rd IEEE International Symposium on Software Reliability (ISSRE)
+    details: "Charlotte, NC"
+    year: "2022"
+
+  - authors: [Chidera Biringa, Gaspard Baye, "Gokhan Kul*"]
+    title: "Short Paper: Static and Microarchitectural ML-Based Approaches For Detecting Spectre Vulnerabilities and Attacks"
+    url: https://arxiv.org/abs/2210.14452
+    venue: Hardware and Architectural Support for Security and Privacy (HASP)
+    details: "Chicago, IL"
+    year: "2022"
+
+  - authors: [Jack D'Agostino, "Gokhan Kul*"]
+    title: Toward Pinpointing Data Leakage from Advanced Persistent Threats
+    url: https://ieeexplore.ieee.org/document/9463549
+    venue: IEEE International Conference on Intelligent Data Security (ICIDS)
+    details: "New York, NY"
+    year: "2021"
+
+  - authors: [Chidera Biringa, "Gokhan Kul*"]
+    title: Automated User Experience Testing through Multi-Dimensional Performance Impact Analysis
+    url: https://arxiv.org/abs/2104.03453
+    venue: IEEE/ACM International Conference on Automation of Software Test (AST)
+    details: "Online"
+    year: "2021"
+
+  - authors: [Prinkle Sharma, Umesh Siddanagaiah, "Gokhan Kul*"]
+    title: Towards an AI-Based After-Collision Forensic Analysis Protocol for Autonomous Vehicles
+    url: ""
+    venue: IEEE International Conference on Security and Privacy — IEEE Workshop on Assured Autonomous Systems (WAAS)
+    details: ""
+    year: "2020"
+
+  - authors: [Heather Craddock, Lakshmi Prasanna Konudula, Kun Cheng, "Gokhan Kul*"]
+    title: "The Case for Physical Memory Pools: A Vision Paper"
+    url: ""
+    venue: International Conference on Cloud Computing (CLOUD)
+    details: "San Diego, CA"
+    year: "2019"
+
+  - authors: ["Gokhan Kul*", Shambhu Upadhyaya, Varun Chandola]
+    title: Detecting Data Leakage from Databases on Android Apps with Concept Drift
+    url: https://arxiv.org/abs/1805.11780
+    venue: 17th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)
+    details: "New York, NY"
+    year: "2018"
+
+  - authors: ["Gokhan Kul*", Shambhu Upadhyaya, Andrew Hughes]
+    title: Complexity of Insider Attacks to Databases
+    url: http://www.cse.buffalo.edu/~gokhanku/ComplexityOfInsiderAttacks.pdf
+    venue: 9th ACM CCS International Workshop on Managing Insider Security Threats (MIST)
+    details: "Dallas, TX"
+    year: "2017"
+
+  - authors: [Vishal Sharma, Ilsun You, "Gokhan Kul*"]
+    title: Socializing Drones for Inter-Service Operability in Ultra-Dense Wireless Networks using Blockchain
+    url: http://www.cse.buffalo.edu/~gokhanku/SocializingDrones.pdf
+    venue: 9th ACM CCS International Workshop on Managing Insider Security Threats (MIST)
+    details: "Dallas, TX"
+    year: "2017"
+
+  - authors: ["Gokhan Kul*", Duc Luong, Ting Xie, Patrick Coonan, Varun Chandola, Oliver Kennedy, Shambhu Upadhyaya]
+    title: "Ettu: Analyzing Query Intents in Corporate Databases"
+    url: http://odin.cse.buffalo.edu/papers/2016/ERMIS-final.pdf
+    venue: 25th International Conference Companion on World Wide Web (WWW Companion)
+    details: "pp. 463–466. DOI: 10.1145/2872518.2888608"
+    year: "2016"
+
+  - authors: ["Gokhan Kul*", Shambhu Upadhyaya]
+    title: A Preliminary Cyber Ontology for Insider Threats in the Financial Sector
+    url: http://dl.acm.org/citation.cfm?id=2808793
+    venue: 7th ACM CCS International Workshop on Managing Insider Security Threats (MIST)
+    details: "pp. 75–78. DOI: 10.1145/2808783.2808793"
+    year: "2015"
+
+  - authors: [Deniz Iren, "Gokhan Kul*", Semih Bilgen]
+    title: "Utilization of synergetic human-machine clouds: a big data cleaning case"
+    url: http://www.cse.buffalo.edu/~gokhanku/CrowdsourcingBigDataCleaning.pdf
+    venue: 1st International Workshop on CrowdSourcing in Software Engineering (CSI–SE)
+    details: "pp. 15–18. DOI: 10.1145/2593728.2593733"
+    year: "2014"
+
+posters:
+  - authors: ["Gokhan Kul*"]
+    title: Database Access Monitoring
+    url: ""
+    venue: Traffic and Monitoring Analysis Conference
+    details: "Dublin, Ireland"
+    year: "2017"
+
+  - authors: ["Gokhan Kul*"]
+    title: Crowdsourcing Ontology Design
+    url: http://www.cse.buffalo.edu/~gokhanku/CrowdsourcingOntology.pdf
+    venue: 4th EURO-NF Summer School for Master and PhD Students
+    details: "University of Wuerzburg, Germany"
+    year: "2012"
+
+reports:
+  - authors: ["Gokhan Kul*", Duc Luong, Ting Xie, Patrick Coonan, Varun Chandola, Oliver Kennedy, Shambhu Upadhyaya]
+    title: Summarizing Large Query Logs in Ettu
+    url: https://arxiv.org/abs/1608.01013
+    venue: "eprint arXiv:1608.01013"
+    details: ""
+    year: "2016"

@@ -1,0 +1,24 @@
+# Current lab members.
+# To add a photo, drop the file in assets/img/ and set `photo: filename.jpg`.
+# Use `initials:` as a fallback display when no photo is available.
+#
+# [EDIT] These entries are inferred from your recent co-authored publications.
+# Verify each person's status, role, and project before going live.
+
+- name: Pahavalan Rajkumar Dheivanayahi
+  initials: PR
+  role: Ph.D. Student
+  topic: Explainable NIDS · transformers for packet-level detection
+  photo:    # e.g. pahavalan.jpg
+
+- name: Ryan Berry
+  initials: RB
+  role: Graduate Student
+  topic: ML resilience · intrusion detection
+  photo:
+
+- name: Nicholas Costagliola
+  initials: NC
+  role: Graduate Student
+  topic: Open-world recognition · NIDS
+  photo:
