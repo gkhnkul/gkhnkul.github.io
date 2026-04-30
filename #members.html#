@@ -1,0 +1,64 @@
+---
+layout: page
+title: Lab Members
+lede: The people who do the work. Reach out to anyone below — we collaborate openly across topics.
+permalink: /members/
+---
+
+<h2>Principal Investigator</h2>
+<div class="members-grid" style="grid-template-columns: 260px;">
+  <div class="member">
+    <div class="headshot"><img src="{{ '/assets/img/kul.png' | relative_url }}" class="headshot" alt="{{ site.pi.name }}"></div>
+    <div class="member-name">{{ site.pi.name }}</div>
+    <div class="member-role">{{ site.pi.title }}</div>
+    <div class="member-topic">PI · AI for Cybersecurity, Cybersecurity for AI</div>
+  </div>
+</div>
+
+<h2>Current Students</h2>
+<p class="muted" style="font-size:.92rem"><em>To add a member, edit <code>_data/members.yml</code>. Drop photos into <code>assets/img/</code>.</em></p>
+
+<div class="members-grid">
+  {%- for m in site.data.members -%}
+  <div class="member">
+    <div class="member-photo">
+      {%- if m.photo -%}
+        <img src="{{ '/assets/img/' | append: m.photo | relative_url }}" alt="{{ m.name }}">
+      {%- else -%}
+        {{ m.initials }}
+      {%- endif -%}
+    </div>
+    <div class="member-name">{{ m.name }}</div>
+    <div class="member-role">{{ m.role }}</div>
+    <div class="member-topic">{{ m.topic }}</div>
+  </div>
+  {%- endfor -%}
+
+  <div class="member">
+    <div class="member-photo">+</div>
+    <div class="member-name">Your Name Here</div>
+    <div class="member-role">Looking for motivated students</div>
+    <div class="member-topic">See <a href="{{ '/contact/' | relative_url }}">Contact</a></div>
+  </div>
+</div>
+
+<h2>Alumni</h2>
+<p class="muted" style="font-size:.92rem"><em>Edit placements in <code>_data/alumni.yml</code> as folks land in new roles.</em></p>
+<ul class="alumni-list">
+  {%- for a in site.data.alumni.alumni -%}
+  <li>
+    <span><span class="alumni-name">{{ a.name }}</span> &nbsp;<span class="alumni-then">{{ a.then }}</span></span>
+    <span class="alumni-now">{% if a.now != "" %}{{ a.now }}{% else %}<em>—</em>{% endif %}</span>
+  </li>
+  {%- endfor -%}
+</ul>
+
+<h2>Frequent Collaborators</h2>
+<ul class="alumni-list">
+  {%- for c in site.data.alumni.collaborators -%}
+  <li>
+    <span><span class="alumni-name">{{ c.name }}</span> &nbsp;<span class="alumni-then">{{ c.affiliation }}</span></span>
+    <span class="alumni-now">{{ c.note }}</span>
+  </li>
+  {%- endfor -%}
+</ul>
