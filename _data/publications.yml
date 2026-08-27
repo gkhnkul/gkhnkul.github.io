@@ -89,10 +89,23 @@ bookchapter:
     year: "2023"
 
 conference:
+
   - authors: [Chidera Biringa, Ajmal Abbas, Vishnu Selvaraj, "Gokhan Kul*"]
     title: "VulStyle: A Multi-Modal Pre-Training for Code Stylometry-Augmented Vulnerability Detection"
     venue: "IEEE/IFIP DSN"
-    details: "2026, to appear"
+    details: "2026"
+    year: "2026"
+
+  - authors: [Mayank Raj, Nathaniel D. Bastian, Lance Fiondella, "Gokhan Kul*"]
+    title: "From Threat Intelligence to Decision Theory: ATT&CK-Derived Utility Functions for Adversarial Risk Analysis in NIDS"
+    venue: "IEEE/IFIP DSN2026 56th Annual IEEE International Conference on Dependable Systems and Networks Workshops (DSN-W)"
+    details: "2026"
+    year: "2026"
+
+  - authors: [Jaswanth Chithu Sudharsan, "Gokhan Kul*"]
+    title: "ThermalQuest: Gamifying Thermal Side-Channel Attack Education with Interactive Pipeline and Memory Visualization"
+    venue: "IEEE/IFIP DSN2026 56th Annual IEEE International Conference on Dependable Systems and Networks Workshops (DSN-W)"
+    details: "2026"
     year: "2026"
 
   - authors: [Shreyash Tiwari, Nathaniel D. Bastian, "Gokhan Kul*"]
@@ -120,7 +133,7 @@ conference:
     year: "2025"
 
   - authors: [Priscila Silva, Gaspard Baye, Nicholas Costagliola, Nathaniel D. Bastian, "Gokhan Kul*", Lance Fiondella]
-    title: "Repair-Time Trigger for Cyberattack Classifiers"
+    title: "A Repair-Time Trigger for Cyberattack Classifiers"
     venue: "IEEE MILCOM"
     details: "2025, to appear"
     year: "2025"
