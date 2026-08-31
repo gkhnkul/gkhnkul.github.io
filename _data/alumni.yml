@@ -9,9 +9,27 @@ alumni:
     then: "Ph.D., Software Vulnerability Detection"
     now: "Applied Scientist @ Microsoft Research"
   - name: Priscila Silva
-    then: "Ph.D., Resilience Engineering of NIDS"
+    then: "Ph.D., Resilience Engineering of NIDS (Advisor: Dr. Lance Fiondella, co-Advisor: Dr. Gokhan Kul"
     now: "Assistant Professor @ University of Texas El Paso"
- 
+
+
+#- name: Shreyash Tiwari
+#  role: M.S. Student
+#  topic: Deep Q Networks for Open-Set Recognition
+#  photo: shreyash-tiwari.jpeg
+
+msalumni:
+  - name: Margaret Battersby
+    then: "M.S, UAV Sensor Attacks"
+    now: "Computer Scientist @ Department of Air Force"
+  - name: Mayank Raj
+    then: M.S., Risk Modeling and Attack Chain Prediction for NIDS
+    now: "Ph.D. Student @ University of Illinois Chicago"
+  - name: Nicholas Costagliola
+    then: "M.S., Continual Learning for NIDS"
+    now: "Ph.D. Student @ University of Florida"
+
+
 
 # Frequent external collaborators (separate list since they aren't lab members)
 #collaborators:
