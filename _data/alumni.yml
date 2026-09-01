@@ -9,7 +9,7 @@ alumni:
     then: "Ph.D., Software Vulnerability Detection"
     now: "Applied Scientist @ Microsoft Research"
   - name: Priscila Silva
-    then: "Ph.D., Resilience Engineering of NIDS (Advisor: Dr. Lance Fiondella, co-Advisor: Dr. Gokhan Kul"
+    then: "Ph.D., Resilience Engineering of NIDS (Advisor: Dr. Lance Fiondella, co-Advisor: Dr. Gokhan Kul)"
     now: "Assistant Professor @ University of Texas El Paso"
 
 
@@ -28,7 +28,9 @@ msalumni:
   - name: Nicholas Costagliola
     then: "M.S., Continual Learning for NIDS"
     now: "Ph.D. Student @ University of Florida"
-
+  - name: Jack D'Agostino
+    then: "M.S., ATP Detection through Data Leakage Assessment"
+    now: "Software Engineer @ MITRE"
 
 
 # Frequent external collaborators (separate list since they aren't lab members)
