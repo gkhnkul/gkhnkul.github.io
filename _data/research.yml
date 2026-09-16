@@ -14,8 +14,8 @@
     and how to quantify the cost of getting it wrong. Our DoA-funded program develops resilience
     metrics, open-set recognition models, and explainability methods tailored to network intrusion detection.
   highlights:
-    - DQNGuard: Towards Open-World RF Preliminary-Action Detection (IEEE MILCOM 2026)
-    - varMax: Towards Confidence-Based Zero-Day Attack Recognition (IEEE MILCOM 2024)
+    - "DQNGuard: Towards Open-World RF Preliminary-Action Detection (IEEE MILCOM 2026)"
+    - "varMax: Towards Confidence-Based Zero-Day Attack Recognition (IEEE MILCOM 2024)"
     - A Repair-Time Trigger for Cyberattack Classifiers (IEEE MILCOM 2025)
     - Explainability of Network Intrusion Detection using Transformers (IEEE Access, 2025)
     - Quantitative Assessment of ML Reliability and Resilience (Risk Analysis, 2024)
@@ -51,7 +51,7 @@
     before merge. Related work targets microarchitectural side-channel vulnerabilities (Spectre-class)
     using static and ML-based detection.
   highlights:
-    - VulStyle: A Multi-Modal Pre-Training for Code Stylometry-Augmented Vulnerability Detection (IEEE/IFIP DSN 2026)
+    - "VulStyle: A Multi-Modal Pre-Training for Code Stylometry-Augmented Vulnerability Detection (IEEE/IFIP DSN 2026)"
     - "PACE: A Program Analysis Framework for Continuous Performance Prediction (ACM TOSEM 2023)"
     - Detecting Hard-Coded Credentials in Software Repositories via LLMs (ACM DTRAP 2025)
     - Automated UX Testing through Multi-Dimensional Performance Impact Analysis (IEEE/ACM AST 2021)
